@@ -11,11 +11,21 @@
 		}
     ],
     "require": {
-        "php" : ">5.4"
+        "php" : ">5.4",
+		"doorframework/core" : "dev-master",
+		"malsup/form": "*",
+		"ivaynberg/select2" : "*",
+		"components/jqueryui" : "1.10.*",
+		"fortawesome/font-awesome" : "4.*",
+		"components/bootstrap" : "3.*",
+		"doorframework/ckeditor" : "dev-master"		
     },
     "autoload": {
         "psr-0" : {
             "Door\\Bootstrap" : "classes"
         }
+    },
+    "config": {
+        "component-dir": "application/media/components"
     }
 }
