@@ -1,0 +1,21 @@
+{
+    "name": "doorframework/bootstrap",
+    "license": "MIT",
+    "type": "door-module",
+    "description": "Bootstrap css framework",
+    "keywords": ["framework","mvc"],
+    "authors": [
+		{
+			"name": "Sergey Sachik",
+			"homepage": "http://serginho.ru/"
+		}
+    ],
+    "require": {
+        "php" : ">5.4"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Door\\Bootstrap" : "classes"
+        }
+    }
+}
